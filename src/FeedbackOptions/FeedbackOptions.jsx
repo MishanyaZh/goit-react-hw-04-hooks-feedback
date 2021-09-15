@@ -5,7 +5,7 @@ function FeedbackOptions({ leaveFeedback, options }) {
   return (
     <div>
       <List>
-        {Object.keys(options).map(option => (
+        {options.map(option => (
           <li key={option}>
             <Button type="button" onClick={() => leaveFeedback(option)}>
               {option}

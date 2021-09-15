@@ -34,13 +34,12 @@ const App = () => {
     return Math.round((good / countTotalFeedback()) * 100);
   };
 
+  const options = Object.keys({ good, neutral, bad });
+
   return (
     <MainContainer>
       <Section title="Please leave feedback">
-        <FeedbackOptions
-          leaveFeedback={leaveFeedback}
-          options={{ good, neutral, bad }}
-        />
+        <FeedbackOptions leaveFeedback={leaveFeedback} options={options} />
       </Section>
 
       <Section title="Statistics">
