@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { List, Button } from './FeedbackOptions.styled';
+import { List, Button } from './FeedbackOptions.styled.js';
 
 function FeedbackOptions({ leaveFeedback, options }) {
   return (
