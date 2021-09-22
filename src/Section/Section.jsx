@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box, Title } from './Section.styled';
+import { Box, Title } from './Section.styled.js';
 
 const Section = ({ title, children }) => (
   <Box>

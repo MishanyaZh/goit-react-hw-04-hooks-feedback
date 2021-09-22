@@ -22,8 +22,7 @@ const App = () => {
   };
 
   const countPositiveFeedbackPercentage = () => {
-    const { good } = feedbacks;
-    return Math.round((good / countTotalFeedback()) * 100);
+    return Math.round((feedbacks.good / countTotalFeedback()) * 100);
   };
 
   const options = Object.keys(feedbacks);

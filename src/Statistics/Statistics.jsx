@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Notification from '../Notification/Notification';
-import { Container, List } from './Statistics.styled';
+import { Container, List } from './Statistics.styled.js';
 
 function Statistics(props) {
   const {

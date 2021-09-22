@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { NotificationMessage } from './Notification.styled.jsx';
+import { NotificationMessage } from './Notification.styled.js';
 
 const Notification = ({ message }) => (
   <NotificationMessage>{message}</NotificationMessage>
